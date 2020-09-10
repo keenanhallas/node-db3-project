@@ -75,12 +75,3 @@ function remove(id) {
         .del();
     return removed;
 }
-
-/*
-function remove(id) {
-    return db("schemes")
-        .where({ id })
-        .del();
-        //should resolve to the removed scheme or null
-}
-*/
